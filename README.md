@@ -28,9 +28,4 @@ def view_tasks():
             print(f" Status: {task_details['status']}")  
             print("-" * 20)  
 
-# Example usage:  
-add_task(1, "Buy groceries", "Need to buy milk and eggs", "2024-11-20")  
-add_task(2, "Complete project", "Finish the final report", "2024-12-01")  
-view_tasks()  
-update_task_status(1, "completed")  
-view_tasks() 
+
